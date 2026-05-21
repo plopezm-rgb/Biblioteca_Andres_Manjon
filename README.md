@@ -11,7 +11,6 @@ la instalación de un servidor y el desarrollo de una aplicación web para la ge
 - CSS3
 - PHP
 - JavaScript (Cambio de idioma)
-- SQL
 - MySQL
 - Apache2
 - Ubuntu Server
