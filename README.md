@@ -1,8 +1,6 @@
 # Biblioteca Andrés Manjón
 
-Proyecto desarrollado durante el ciclo de Desarrollo de Aplicaciones Web (DAW) enfocado en la transformación funcional y tecnológica de la biblioteca del CEIP Andrés Manjón.
-
-El objetivo principal del proyecto fue modernizar y digitalizar la biblioteca del centro mediante la mejora de la infraestructura de red,
+Proyecto enfocado en la transformación funcional y tecnológica de la biblioteca del CEIP Andrés Manjón. El objetivo principal del proyecto fue modernizar y digitalizar la biblioteca del centro mediante la mejora de la infraestructura de red,
 la instalación de un servidor y el desarrollo de una aplicación web para la gestión de préstamos de libros. 
 
 ---
@@ -48,7 +46,7 @@ Además del desarrollo web, el proyecto incluyó:
 
 ## Objetivo del proyecto
 
-Transformar la biblioteca escolar en un espacio más funcional, organizado y digitalizado, mejorando tanto la gestión interna como la infraestructura tecnológica del centro. :contentReference[oaicite:1]{index=1}
+Transformar la biblioteca escolar en un espacio más funcional, organizado y digitalizado, mejorando tanto la gestión interna como la infraestructura tecnológica del centro. 
 
 ---
 
@@ -65,8 +63,4 @@ Durante este proyecto trabajé:
 - planificación de proyectos reales
 - comunicación con cliente real
 
----
 
-## 👨‍💻 Autor
-
-Pablo López
