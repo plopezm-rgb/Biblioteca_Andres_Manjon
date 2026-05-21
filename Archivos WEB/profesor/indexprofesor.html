@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel del Profesor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- TU CSS ÚNICO -->
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+
+<!-- HEADER (IGUAL QUE EL RESTO) -->
+<section class="header">
+  <img src="../img/logoA.png">
+  <section class="text">
+    <h4 id="header1">CEIP Andrés Manjón</h4>
+    <h4 id="header2">Biblioteca</h4>
+  </section>
+  <h2 id="title">Panel del Profesor</h2>
+  
+<section class="sidebar-logout" style="margin-top:-55px; padding: 20px;">
+    <button class="sidebar-link logout-btn" onclick="confirmLogout()">Cerrar sesión</button>
+</section>
+
+  
+</section>
+
+<section class="buttons">
+   <img src="img/help.png" class="head-foto">
+</section>
+
+<!-- CONTENIDO CENTRAL -->
+<main class="panel-main">
+  <section class="panel-card">
+
+    <h1 class="panel-title">Gestión de Biblioteca</h1>
+
+    <section class="panel-buttons">
+      <a href="registro_libro_html.php" class="panel-btn">Registro Libro</a>
+      <a href="../profesor/Gestiondelibros.php" class="panel-btn">Buscar Libro</a>
+      <a href="registro_alumno.php" class="panel-btn">Registro Alumno</a>
+      <a href="buscar_alumno.php" class="panel-btn">Buscar Alumno</a>
+    </section>
+
+  </section>
+</main>
+
+<!-- FOOTER (IGUAL QUE EL RESTO) -->
+<footer class="estilo-footer">
+  <section class="estilo-footer-container">
+    <section class="estilo-footer-logo">
+      <img src="../img/footerlogo.png" alt="Logo" class="estilo-logo-img">
+    </section>
+
+    <section class="estilo-footer-column">
+      <h3 class="estilo-footer-title">SOBRE NOSOTROS</h3>
+      <ul class="estilo-footer-list">
+        <li>
+          <a href="https://ceipandresmanjon.catedu.es/" class="estilo-footer-link">
+            Web del centro
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="estilo-footer-column">
+      <h3 class="estilo-footer-title">DIRECCIÓN</h3>
+      <p class="estilo-footer-text">
+        CEIP Andrés Manjón.<br>
+        C/ Delicias, 90, 50017, Zaragoza
+      </p>
+    </section>
+
+    <section class="estilo-footer-column">
+      <h3 class="estilo-footer-title">TELÉFONO</h3>
+      <p class="estilo-footer-text">976 331 728</p>
+
+      <h3 class="estilo-footer-title estilo-mt">E-MAIL</h3>
+      <p class="estilo-footer-text">cpamanzaragoza@educa.aragon.es</p>
+    </section>
+
+    <section class="estilo-footer-column">
+      <h3 class="estilo-footer-title">HORARIO</h3>
+      <p class="estilo-footer-text">De lunes a viernes de 9 a 14 h</p>
+    </section>
+
+    <section class="estilo-footer-right">
+      <a href="https://educa.aragon.es/">
+        <img src="../img/gobierno.png" alt="Gobierno de Aragón" class="estilo-gobierno-logo">
+      </a>
+      <section class="estilo-social-icons">
+        <a href="https://www.instagram.com/ceip_andresmanjon/" class="estilo-social-link">
+          <img src="../img/instagram.png" alt="Instagram" class="estilo-social-icon">
+        </a>
+      </section>
+    </section>
+  </section>
+</footer>
+
+
+<script>
+function confirmLogout() {
+    if (confirm("¿Estás seguro de que deseas cerrar sesión?")) {
+        // Redirigir al script PHP que destruye la sesión
+        window.location.href = "../librolista/logout.php";
+    }
+}
+</script>
+
+</body>
+</html>
+
